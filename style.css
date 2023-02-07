@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'frase';
+  src: url('./fonts/frase.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('./fonts/title.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'title';
+}
+
+p {
+  font-family: 'frase';
+}
+
+
+.logo a {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #5e17eb;
+  font-size: 30px;
+  text-decoration: none;
+}
