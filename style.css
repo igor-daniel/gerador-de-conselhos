@@ -9,21 +9,98 @@
 
 @font-face {
   font-family: 'title';
-  src: url('./fonts/title.ttf') format('truetype');
+  src: url('./fonts/Revamped.otf') format('opentype');
+}
+
+body {
+  background: #2c3e50;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 }
 
 h1 {
   font-family: 'title';
+  text-align: center;
+  margin-top: 25px;
+  font-size: 50px;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.adiviceArea {
+  background-color: transparent;
+  border: #3498db 2px solid;
+  border-radius: 15px;
+  width: 700px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
   font-family: 'frase';
+  font-size: 35px;
+  padding: 20px;
+  /* font-weight: bold; */
 }
 
+.areaBtn {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.areaBtn .btn {
+  font-family: 'title';
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: #CCC;
+  color: #3498db;
+  border: #3498db 2px solid;
+  border-radius: 30px;
+}
+
+.logo {
+  padding: 10px;
+}
 
 .logo a {
   font-family: 'Montserrat Subrayada', sans-serif;
-  color: #5e17eb;
-  font-size: 30px;
+  color: #3498db;
+  font-size: 34px;
   text-decoration: none;
 }
+
+.mini-text {
+  font-size: 10px;
+  font-family: sans-serif;
+  /* font-weight: bold; */
+  padding: 0;
+}
+
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img {}
