@@ -103,4 +103,6 @@ footer {
   align-items: center;
 }
 
-.icons img {}
+.icons img {
+  padding: 10px;
+}
